@@ -28,8 +28,8 @@ auto print_image(const std::vector<std::vector<int>>& image) -> void {
 
 auto main(int argc, char *argv[]) -> int {
 	std::vector<std::vector<int>> image{{1, 0, 1},
-									    {1, 1, 1},
-									    {0, 1, 1}};
+					    {1, 1, 1},
+					    {0, 1, 1}};
 	auto new_image = invert_flip_image(image);
 	print_image(new_image);
 	return 0;
